@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" skipfailedinvocationcounts="false" verbose="1" name="DefaultSuite" junit="false" annotations="JDK"
+       data-provider-thread-count="10" parallel="false">
+    <test name="DefaultContainerSuite" junit="false">
+        <groups>
+            <run>
+                <include name="fast"/>
+                <exclude name="slow"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="example.SimpleTest"/>
+        </classes>
+    </test>
+</suite>
