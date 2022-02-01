@@ -1,4 +1,4 @@
-<!DOCTYPE suite SYSTEM "testng-1.0.dtd">
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
 <suite  name="Ant suite" junit="false">
     <test name="DefaultContainerSuite" junit="false">
