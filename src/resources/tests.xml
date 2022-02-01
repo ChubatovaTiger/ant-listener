@@ -1,6 +1,6 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite  name="DefaultSuite" junit="false">
+<suite  name="Ant suite" junit="false">
     <test name="DefaultContainerSuite" junit="false">
         <groups>
             <run>
