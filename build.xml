@@ -21,7 +21,7 @@
         <javac srcdir="${src}" destdir="${build}" includeantruntime="false" classpathref="cp"/>
     </target>
     <target name="test" depends="compile">
-        <testng timeout="7200000" classpathref="cp" workingDir="${test}"
+        <testng suitename="default" timeout="7200000" classpathref="cp" workingDir="${test}"
                     verbose="1" outputDir="${test}/log" haltOnfailure="false"
                     haltonskipped="false" dumpCommand="true">
             <xmlfileset dir="${src}/resources" includes="tests.xml"/>
