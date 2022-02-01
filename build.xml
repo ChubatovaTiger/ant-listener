@@ -3,7 +3,7 @@
     <property name="build" location="build"/>
     <property name="test" location="${build}/test"/>
     <path id="cp">
-        <pathelement location="Ant/lib/testng-5.14.jar"/>
+        <pathelement location="Ant/lib/testng-5.5.jar"/>
         <pathelement location="Ant/lib/jcommander-1.78.jar"/>
         <pathelement location="Ant/lib/slf4j-api-1.7.35.jar"/>
         <pathelement location="Ant/lib/jquery-3.5.1.jar"/>
