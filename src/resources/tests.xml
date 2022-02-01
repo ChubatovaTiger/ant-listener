@@ -2,7 +2,12 @@
     <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
     <suite guice-stage="DEVELOPMENT" name="Default suite">
     <test name="DefaultContainerSuite" junit="false">
-
+        <groups>
+            <run>
+                <include name="fast"/>
+                <exclude name="slow"/>
+            </run>
+        </groups>
         <classes>
             <class name="example.SimpleTest"/>
         </classes>
